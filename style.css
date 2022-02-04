@@ -1,0 +1,483 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-family: Helvetica;
+}
+ 
+p {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    color: #020230;
+}
+ body {
+    background-color: white;
+    background-repeat: repeat;
+    height: auto;
+    width: auto;
+}
+ /*FOOTER*/
+ footer {
+ 	text-align: center;
+    padding-top: 100px;
+    line-height: 1.5rem;
+    font-size: 18px;
+    color: #020230;
+ }
+ /*Barra navegação topo da página*/
+  
+  
+header {
+    width: 100%;
+    height: 80px;
+    background-color: midnightblue;
+    border: 1px solid rgb(250, 250, 253);
+    padding-top: 30px;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.areadoaluno, .formtopo form, label {
+    font-size: 20px;
+    color: white;
+}
+
+.form, .cadastro {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+.matriculas {
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.logo {
+    margin-top: -25px;
+}
+
+/* MENU DPDOWN*/ 
+
+.dpmenu ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+ }
+
+.dpmenu ul {
+    background-color: #020230;
+    width: auto;
+    height: auto;
+}
+
+.dpmenu ul li {
+    display: inline;
+    position: relative;
+    top: 30%;
+    left: 0;
+}
+
+.dpmenu ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s;
+
+}   
+
+.dpmenu ul li a:hover {
+    background-color: grey;
+}
+
+/* SUB MENU*/ 
+
+.dpmenu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}   
+
+.dpmenu ul li:hover ul {
+    display: block;
+
+}   
+
+.dpmenu ul ul {
+    width: 140px;   
+}   
+
+.dpmenu ul ul li a{
+    display: block;
+}   
+
+.dpmenu ul ul li a{
+    font-size: 18px;
+    line-height: 1rem;
+
+}   
+
+
+/*FIM DO MENU*/
+
+
+.corpo {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.corpo p {
+    font-size: 40px;
+    font-family: Helvetica;
+    font-style: italic;
+    color: #020230;
+    line-height: 2.5rem;
+}
+
+
+.navbar {
+    background-color: #020230;
+    width: auto;
+    height: 200px;
+    }
+
+   /* CUSTOM TAGS*/ 
+
+.custom1 {
+    text-align: left;
+    font-style:  italic;
+    font-family: cursive;
+    font-size: 12px;
+    float: right;
+    }
+.custom2 {
+    font-size: 16px;
+    padding-right: 5px;
+    color: white;
+    font-weight: bold;
+    }
+
+.custom3 {
+    font-family: Arial;
+    color: darkred;
+    font-size:80px;
+    font-style: italic;
+    font-weight: bold;
+    }
+.custom4 {
+    font-family: "Brush Script MT";
+    font-size:  80px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.custom5 {
+    font-family: "Arial";
+    font-size:  20px; 
+    line-height: 1rem;
+    }
+.custom6 {
+    font-family: Arial;
+    color: darkred;
+    font-size:60px;
+    font-style: italic;
+    font-weight: bold;
+    }
+    
+.custom7 {
+    font-family: Arial;
+    font-size: 10px;
+    color: red;
+    }
+
+.custom8 {
+    font-family: "Brush Script MT";
+    font-size:  80px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.custom9 {
+    font-family: Times New Roman;
+    font-size: 35px;
+    font-style: italic;
+}
+
+
+.custom10 {
+    font-family: Arial;
+    color: darkred;
+    font-size:65px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.custom11 {
+    font-family: Arial;
+    color: darkred;
+    font-size:45px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.custom12 {
+    font-family: Brush Script MT;
+    color: #020230;
+    font-size:75px;
+    font-style: italic;
+}
+
+
+.fotofachada img {
+    padding: 10 20px;
+    width: 935px;
+    height: auto;
+    border: 1px solid white;
+}
+
+ /*<===NOSSOS CURSOS==>*/
+h1, h2, h3,h5, .oops, aside {
+    font-size: 50;
+    color: #020230;
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: Robotto;
+}
+
+
+li {
+    font-size: 20px;
+}
+
+.course_description {
+    font-size: 16px;
+    padding: 5 15 15 30px;
+    line-height: 2rem;
+    text-align: justify;
+    text-indent: 2rem;
+    color: #020230;
+}
+
+.course_description ul li{
+    text-align: left;
+}
+
+.course_description ul li{
+    padding-left: 15px;
+}
+
+.course_description p {
+    color: #020230;
+    text-align: justify;
+    text-indent: 2rem;
+    padding-right: 5px;
+}
+
+.titles {
+    font-size: 40px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: #020230;
+    }
+
+.catch_phrase {
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 15px;
+}
+.curso_regular .course_description {
+    float:inline-end;
+    
+} 
+
+.curso_regular .livros_interchange {
+    padding-top: 0px;
+    padding-bottom: 25px;
+    float: left;
+}
+
+.curso_regular ul li {
+    font-size: 16px;
+    list-style-type: none
+}
+
+.curso_business ul li {
+    font-size: 16px;
+}
+
+.curso_xpress ul li {
+    font-size: 16px;
+}
+
+.curso_kids ul li {
+    font-size: 16px;
+}
+
+.curso_xpress  .course_description {
+    float: inline-end;
+}
+
+.curso_xpress .livros_interchange {
+    padding-top: 0px;
+    padding-bottom: 25px;
+    float: right;
+}
+
+
+.curso_business .course_description {
+    float: inline-end;
+}
+
+.curso_business .livros_interchange {
+    padding-top: 0px;
+    padding-bottom: 25px;
+    float: right;
+}
+
+
+.curso_kids .course_description {
+    float: inline-end;
+}
+
+.curso_kids .livros_interchange {
+    padding-top: 0px;
+    padding-bottom: 25px;
+    float: right;
+}
+
+ul {
+    font-size: 14px;
+    padding: 0 0 0 0px;
+    line-height: 2rem;
+}
+
+.endereco {
+    font-size: 24;
+    text-align: center;
+    margin-top: 20px;
+    color: #020230;
+}
+
+.horario {
+    font-size: 24;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.horario ul li {
+    color: #020230;
+}
+
+.horario p {
+    font-size: 25px;
+}
+
+.redes_sociais {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.redes_sociais img {
+    padding: 10 10px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.creditos {
+    text-align: center;
+    color: white;
+    font-family: Times New Roman;
+    font-style: italic;
+    background-color: #020230;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 10 10px;
+}
+
+.chamada {
+    display: flex;
+}
+
+.chamada img {
+    float: right;
+    padding-right: 15px;
+}
+
+.rev {
+    font-size: 28px;
+    color: #020230;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foto {
+    padding: 3 5px;
+}
+
+h4 {
+    text-align: left;
+    padding-top: 25px;
+    font-size: 40px;
+    color: #020230;
+    font-family: serif;
+    font-style: italic; 
+    margin-left: 15px;  
+}
+small {
+    color: #020230;
+    margin-left: 15px;  
+}
+
+.formcadastro label {
+    color: #020230;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    line-height: 2.5rem;
+}
+
+.formcadastro form input {
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+form .cadastro a {
+    color: white;
+}

@@ -1,0 +1,31 @@
+/*unused*/
+<table>
+                                <tr>
+                                    <td>Curso</td>
+                                    <td>Level</td>
+                                    <td>CEFR</td></tr>  
+                                <tr>
+                                    <td>Intro</td>
+                                     <td>Level 1</td>
+                                    <td>A1</td>
+                                <tr>
+                                    <td> Interchange 1</td>
+                                    <td>Level 2 </td>
+                                    <td> A2 </td></tr>
+                                <tr> 
+                                    <td> Interchange 2</td>
+                                     <td> Level 3</td>
+                                    <td> B1 </td></tr>
+                                <tr>
+                                    <td>Interchange 3</td>
+                                    <td> Level 4</td>
+                                    <td> B2 </td></tr>
+                                <tr>
+                                    <td> Passages 1</td>
+                                    <td> Level 5 </td>
+                                    <td> B2+ </td> </tr>
+                                <tr>
+                                    <td>Passages 2</td>
+                                    <td> Level 6 </td>
+                                    <td> C1 </td></tr>
+                    </table>
