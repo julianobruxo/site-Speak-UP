@@ -84,7 +84,7 @@ header {
  }
 
 .dpmenu ul {
-    background-color: #020230;
+    background-color:   #020230;
     width: auto;
     height: auto;
 }
@@ -253,7 +253,7 @@ header {
 .fotofachada img {
     padding: 10 20px;
     width: 935px;
-    height: auto;
+    height: 350px;
     border: 1px solid white;
 }
 
