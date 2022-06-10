@@ -29,21 +29,23 @@ p {
   
 header {
     width: 100%;
-    height: 80px;
-    background-color: midnightblue;
+    height: fit-content;
+    background-color: rgb(3, 3, 107);
     border: 1px solid rgb(250, 250, 253);
     padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 header {
     display: flex;
     flex: 1;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .icones {
     display: flex;
     justify-content: space-around;
+    padding-top: 15px;
 }
 
 
@@ -52,27 +54,63 @@ header {
     color: white;
 }
 
-.form, .cadastro {
+.areadoaluno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+#password, #username {
+    width: 200px;
+}
+
+.cadastro {
     text-align: center;
     color: white;
     padding-top: 10px;
     
 }
-
 .matriculas {
     font-size: 20px;
     font-style: italic;
     font-family: sans-serif;
     color: white;
+    padding-top: 30px;
+    
+} .matriculasAbertas {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
+    align-content: space-around;
 }
 
 
 .logo {
     margin-top: -25px;
+    display: flex;
+    align-items: center;
+}
+
+.school {
+    color: white;
+    font-size: 35px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.school p {
+    color: white;
+    font-size: medium;
 }
 
 /* MENU DPDOWN*/ 
@@ -213,7 +251,7 @@ header {
 
 .custom8 {
     font-family: "Brush Script MT";
-    font-size:  80px;
+    font-size:  110px;
     text-decoration: none;
     color: white;
     position: relative;
@@ -229,7 +267,7 @@ header {
 .custom10 {
     font-family: Arial;
     color: darkred;
-    font-size:65px;
+    font-size:85px;
     font-style: italic;
     font-weight: bold;
 }
