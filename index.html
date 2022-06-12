@@ -7,6 +7,7 @@
     <title> Speak UP! English School - Home</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 
 </head>
 
@@ -45,10 +46,10 @@
         <div class="areadoaluno">
             Usuário: <input style="font-size: 12px" ;type="text" name="username" id="username" />
             Senha: <input style="font-size:12px" ; type="password" name="password" id="password" />
-            <input style="color: black; width: min-content;" type="submit" value="Enviar" />
+            <button id="btn1" type="submit" value="Enviar">Enviar</button>
         </div>
 
-        <div class="cadastro"> Ainda não tem cadastro? Clique <a style="color:white;" href="cadastro.html">AQUI</a>
+        <div class="cadastro"> Ainda não tem cadastro? Clique <a href="cadastro.html">AQUI</a>
         </div>
 
     </form>
@@ -63,9 +64,10 @@
 
 
 
-    <nav class="dpmenu">
+    <nav>
 
-        <ul>
+        <button id="btnMobile">Menu</button>
+        <ul id="ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="escola.html">Quem Somos</a>
 

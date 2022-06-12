@@ -37,6 +37,7 @@ header {
 }
 
 header {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
 }
@@ -77,8 +78,33 @@ header {
     text-align: center;
     color: white;
     padding-top: 10px;
-    
 }
+
+.cadastro a {
+    color: white;
+    font-family: sans-serif;
+}
+.cadastro a:hover {
+    font-style: italic;
+}
+#btn1 {
+    font-size: 18px;
+    background-color:#020230;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #010146;
+    transition: background 0.3s;
+}
+
+#btn1:hover {
+    background-color: rgb(231, 226, 226);
+    color: #020230;
+    border: none;
+}
+
 .matriculas {
     font-size: 20px;
     font-style: italic;
@@ -91,7 +117,6 @@ header {
     flex-direction: column;
     align-content: space-around;
 }
-
 
 .logo {
     margin-top: -25px;
@@ -114,26 +139,30 @@ header {
 
 /* MENU DPDOWN*/ 
 
-.dpmenu ul {
+nav {
+    background-color:   #020230;
+}
+
+nav ul {
     list-style-type: none;
     padding: 0px;
     text-align: center;
  }
 
-.dpmenu ul {
+nav ul {
     background-color:   #020230;
     width: auto;
     height: auto;
 }
 
-.dpmenu ul li {
+nav ul li {
     display: inline;
     position: relative;
     top: 30%;
     left: 0;
 }
 
-.dpmenu ul li a {
+nav ul li a {
     font-size: 18px;
     color: white;
     text-decoration: none;
@@ -144,36 +173,56 @@ header {
 
 }   
 
-.dpmenu ul li a:hover {
-    background-color: grey;
+nav ul li a:hover {
+    background-color: rgb(223, 217, 217);
+    color: #020230;
 }
 
 /* SUB MENU*/ 
 
-.dpmenu ul ul {
+nav ul ul {
     display: none;
     left: 0;
     position: absolute;
 }   
 
-.dpmenu ul li:hover ul {
+nav ul li:hover ul {
     display: block;
 
 }   
 
-.dpmenu ul ul {
-    width: 140px;   
+nav ul ul {
+    width: 100%;
 }   
 
-.dpmenu ul ul li a{
+nav ul ul li a{
     display: block;
 }   
 
-.dpmenu ul ul li a{
+nav ul ul li a{
     font-size: 18px;
     line-height: 1rem;
-
+    transition: background 0.5s;
 }   
+
+nav ul ul li a:hover {
+    font-size: 19px;
+    color:#020230;
+}   
+
+/* botão mobile*/
+#btnMobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #btnMobile {
+        display: block;
+    }
+    nav ul li a {
+        display: none   ;
+    }
+}
 
 
 /*FIM DO MENU*/
@@ -483,9 +532,25 @@ ul {
     justify-content: space-evenly;
 }
 
-.foto {
-    padding: 3 5px;
+.album img {
+    width: 600px;
+    height: 300px;
 }
+
+.album .fotosmall img {
+    width: 400px;
+     height: 300px
+} 
+
+.album .fotosmall2 img {
+    width: 450px;
+    height: 450px;
+    padding-top: 15px;
+} 
+.foto {
+    padding: 5 5px;
+}
+
 
 h4 {
     text-align: left;
@@ -524,4 +589,12 @@ small {
 
 form .cadastro a {
     color: white;
+}
+
+form a input {
+    font-size:15px;
+    width:60px; 
+    height:30px; 
+    color: white; 
+    background-color: #020230;
 }
